@@ -1,0 +1,125 @@
+/* my style */
+body {
+    font: 15px/18px 'arial' sans-serif;
+    color: #0f0f0fa9;
+    margin: 50px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: rgb(241, 149, 116);
+    padding-top: 30px;
+    position: relative;
+}
+
+.instagram {
+    width: 184px;
+    height: 172px;
+    background-image: url(../img/instagram.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+
+.header {
+    padding: 7px;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header li {
+    display: inline-block;
+    margin: 8px 7px 8px 0;
+}
+
+.header li a {
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid crimson;
+    padding-right: 8px;
+}
+
+.header li a:hover {
+    background-color: #B6d0e2;
+    border-radius: 3px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(/img/filsafat.png);
+    background-size: cover;
+    background-position: -25;
+}
+
+.content {
+    margin: 15px;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.content {
+    width: 600px;
+    line-height: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content p {
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+}
+
+.sidebar img {
+    float: left;
+    padding-right: 3px;
+}
+
+.footer {
+    height: 35px;
+    background-color: #292525;
+}
+.footer .copy {
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
